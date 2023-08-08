@@ -13,7 +13,7 @@ const priority_ui_styles = StyleSheet.create({
 
     containter: {
         flex: 1,
-        backgroundColor: "red",
+        backgroundColor: "#FFFFFF",
         alignItems: "center",
         justifyContent: "flex-end"
     },
@@ -21,7 +21,7 @@ const priority_ui_styles = StyleSheet.create({
         height: POPUP_HEIGHT,
         width: POPUP_WIDTH,
         justifyContent: "flex-end",
-        backgroundColor: 'blue',
+        backgroundColor: '#D7DFEA',
         borderTopRightRadius: 50,
         borderTopLeftRadius: 50
     },
@@ -31,13 +31,15 @@ const priority_ui_styles = StyleSheet.create({
         marginTop: POPUP_HEIGHT*0.05,
         width: CARD_WIDTH,
         height: CARD_HEIGHT,
-        backgroundColor: 'yellow',
+        backgroundColor: '#D1D8E2',
+        borderWidth:3,
+        borderColor: '#738678',
         borderRadius: 50,
     },
 
     input_bar: {
         width: NAVIGATION_BAR_WIDTH,
-        backgroundColor: 'purple',
+        backgroundColor: 'D1D8E2',
         height: NAVIGATION_BAR_HEIGHT,
         borderTopRightRadius: 20,
         borderTopLeftRadius: 20
