@@ -1,5 +1,6 @@
 import { Stack, Link } from "expo-router";
-import { YStack } from "tamagui";
+import {YStack } from "tamagui";
+//import {sessionStorage} from 'typescript';
 
 export default () => {
   return (
@@ -7,9 +8,9 @@ export default () => {
       flex={1}
       justifyContent="center"
       alignItems="center"
-      backgroundColor="#fff"
+      backgroundColor="#ddf"
     >
-      <Stack.Screen options={{ title: "Home" }} />
+      <Stack.Screen options={{ title: "Options" }} />
       <Link href = "App">Click to go Profile</Link>
     </YStack>
   );
