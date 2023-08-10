@@ -1,6 +1,6 @@
 import { StyleSheet, Dimensions } from 'react-native'
 
-/*Dimensions*/
+/*Dimensions Merges */
 const { width, height } = Dimensions.get('window');
 const POPUP_WIDTH = width;
 const POPUP_HEIGHT = height * 0.8;
