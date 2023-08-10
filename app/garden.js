@@ -1,10 +1,8 @@
 //import {Text} from 'react-native';
-
-import {useParams} from 'react-router-dom';
 // import timer from './assets/timer.png';
 import React from 'react'
-import { View, Image, ScrollView, FlatList, Text, TextInput } from 'react-native'
-import priority_ui_styles from "./priority_todo_list_stylesheet"
+import { View, Image, ScrollView, FlatList, Text } from 'react-native'
+import priority_ui_styles from "./gardenStyle"
 import dog from '../assets/pie_chart.png';
 import bar from '../assets/bar_graph.png';
 import percent from '../assets/percent.png';
@@ -16,13 +14,6 @@ var MONTH = date.toLocaleString('default', { month: 'long' });
 var YEAR = new Date().getFullYear();
 var DAY = new Date().getDate();
 
-function inputTodoTextBox(){
-  return(  
-      <View style={{marginHorizontal: "5%"}}>
-          <TextInput placeholder="Enter task here"></TextInput>
-      </View>
-  );
-}
 
 function PriorityUI() {
 

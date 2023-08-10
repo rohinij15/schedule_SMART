@@ -1,10 +1,10 @@
 import { } from "tamagui"
-import React, { useState, createElement } from 'react'
+import React from 'react'
 import { View, ScrollView, FlatList, Text, TextInput } from 'react-native'
 import BouncyCheckbox from "react-native-bouncy-checkbox";
 import { } from "expo-router"
 import priority_ui_styles from "./priority_todo_list_stylesheet"
-import { Images } from '../assets/images';
+// import { Images } from '../assets/images';
 import { TouchableOpacity } from "react-native-gesture-handler";
 
 //Variables

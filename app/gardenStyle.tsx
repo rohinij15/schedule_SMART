@@ -31,7 +31,7 @@ const priority_ui_styles = StyleSheet.create({
         marginTop: POPUP_HEIGHT*0.05,
         width: CARD_WIDTH,
         height: CARD_HEIGHT,
-        backgroundColor: '#accea1',
+        backgroundColor: '#a9a',
         borderRadius: 50,
     },
 
