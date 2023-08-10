@@ -1,17 +1,25 @@
 import { Stack, Link } from "expo-router";
-import { YStack } from "tamagui";
+import { XStack} from "tamagui";
+import Footer from "./Footer";
+import dog from '../assets/bar_graph.png';
 
 export default () => {
   return (
-    <YStack
-      flex={1}
-      justifyContent="center"
+    <XStack
+      display = "flex"
+      // flex-direction="row"
+      justifyContent="space-evenly"
       alignItems="center"
-      backgroundColor="#ddf"
+      // position= "absolute"
+      top = "175%"
+      padding = "28"
+      backgroundColor="#fff"
     >
       <Stack.Screen options={{ title: "Home" }} />
-      <Link href = "profile">Click to go Profile</Link>
-    </YStack>
+      <Link href = "priority_todo">Priority Table</Link>
+      <Link href = "App">Timer</Link>
+      <Link href = "garden">Stats</Link>
+    </XStack>
 
   );
 };
