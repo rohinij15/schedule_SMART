@@ -12,5 +12,6 @@ export default () => {
       <Stack.Screen options={{ title: "Home" }} />
       <Link href = "profile">Click to go Profile</Link>
     </YStack>
+
   );
 };
