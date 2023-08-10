@@ -103,7 +103,7 @@ export default () => {
       <XStack style = {styles.footer}>
       <Stack.Screen options={{ title: "HOME" }} />
       <Link href = "priority_todo">        Priority Table             </Link>
-      <Link href = "timer">Timer             </Link>
+      <Link href = "App">Timer             </Link>
       <Link href = "garden">Stats           </Link>
     </XStack>
 
