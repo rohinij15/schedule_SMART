@@ -1,4 +1,4 @@
-import { Stack } from "expo-router";
+import { Stack, Link } from "expo-router";
 import { Button, YStack } from "tamagui";
 
 export default () => {
@@ -9,8 +9,8 @@ export default () => {
       alignItems="center"
       backgroundColor="#ddf"
     >
-      <Stack.Screen options={{ title: "Profile" }} />
-      <Button>Profile</Button>
+      <Stack.Screen options={{ title: "Homepage" }} />
+      <Link href = "homepage">Click to go Homepage</Link>
     </YStack>
   );
 };
